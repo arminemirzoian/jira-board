@@ -36,7 +36,9 @@
 
 .dataTitle {
     color: #42526E;
-    padding-left: 20px
+    padding-left: 20px;
+    margin: 20px 0;
+    font-size: 15px;
 }
 
 h2, h4, h5 {

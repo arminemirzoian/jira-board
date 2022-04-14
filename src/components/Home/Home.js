@@ -87,8 +87,16 @@ function Home({handleLogout}) {
             setText("")
         }
     }
+/*
+ const deleteItem = (e) => {
+        console.log(e.target.id)
+     setState(prev => prev.filter((item) => item.id !== e.target.id));
+    }
+*/
 
-    return (
+
+
+return (
         <div className="App">
             <div>
                 <nav className='nav-home'>
@@ -128,6 +136,7 @@ function Home({handleLogout}) {
                                                                             {...provided.dragHandleProps}
                                                                         >
                                                                             {el.name}
+                                                                            {/*<span id={el.id} onClick={(e) => deleteItem(e)} > X</span>*/}
                                                                         </div>
                                                                     )
                                                                 }}
